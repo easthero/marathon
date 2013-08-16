@@ -1,0 +1,4 @@
+<FilesMatch "\.(db|sql)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>

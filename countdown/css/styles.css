@@ -1,0 +1,42 @@
+/*-核心代码-*/
+/* demo style */
+.special {
+	position:relative;
+	float:left;
+	width:840px;
+	height:247px;
+	background-image: url(../images/special_offer_bg.png);
+    background-position: 0px 74px;
+    background-repeat: no-repeat;
+	margin-bottom:46px;
+	cursor:pointer;
+	
+}
+#counter {
+	position:absolute;
+	top:100px;
+	left:279px;
+	z-index:4000;
+}
+
+.digit-separator {position: relative; float: left; width: 17px; height: 44px; overflow: hidden; background-image: url(../images/digit_separator.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+.digit {
+	background-image:url(../images/digits.png)
+}
+
+#shading {
+	background-image: url(../images/sprites.png);
+	background-position: 0px -396px;
+	background-repeat: repeat-x;
+	float: left;
+	height: 44px;
+	position: absolute;
+	width: 291px;	
+	z-index:4100;
+	top:0;
+	left:0;
+}
